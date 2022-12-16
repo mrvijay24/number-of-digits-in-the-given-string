@@ -1,0 +1,8 @@
+a=input("enter the string")
+n=len(a)
+ch=0
+for i in range(n):
+    if a[i]!='\n' and a[i].isdigit()==1:
+        ch=ch+1
+
+print("number of digits in the string are:",ch)
